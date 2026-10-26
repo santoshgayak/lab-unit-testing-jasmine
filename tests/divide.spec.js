@@ -30,9 +30,8 @@ describe("Iteration 2", () => {
             expect(divide(1,"b")).toBeUndefined();
             expect(divide(1, undefined)).toBeUndefined();
         });
-        it("should return undefined if any of the two arguments is 0", () => {
+        it("should return undefined if divisor is 0", () => {
             expect(divide(2, 0)).toBeUndefined();
-            expect(divide(0, 2)).toBeUndefined();
         });
       
 
